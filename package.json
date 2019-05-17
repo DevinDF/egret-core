@@ -6,6 +6,9 @@
   "bin": {
     "egret": "./tools/bin/egret"
   },
+  "scripts": {
+    "test": "mocha -r ts-node/register src/__test__/**/*.ts"
+  },
   "i18n": "cn",
   "egret": {
     "registerClass": "egret",
