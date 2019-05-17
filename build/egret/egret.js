@@ -518,6 +518,16 @@ var egret;
 //////////////////////////////////////////////////////////////////////////////////////
 var egret;
 (function (egret) {
+    // export function hello1(): string {
+    //     return 'Hello World 1!';
+    // }
+    var DisplayObject1111 = (function () {
+        function DisplayObject1111() {
+        }
+        return DisplayObject1111;
+    }());
+    egret.DisplayObject1111 = DisplayObject1111;
+    __reflect(DisplayObject1111.prototype, "egret.DisplayObject1111");
     ;
     /**
      * @private

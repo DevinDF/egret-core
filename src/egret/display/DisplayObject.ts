@@ -27,7 +27,16 @@
 //
 //////////////////////////////////////////////////////////////////////////////////////
 
+
 namespace egret {
+
+    // export function hello1(): string {
+    //     return 'Hello World 1!';
+    // }
+
+    export class DisplayObject1111 {
+        
+    }
 
     /**
      * @private

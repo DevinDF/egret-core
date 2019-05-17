@@ -27,3 +27,14 @@
 //
 //////////////////////////////////////////////////////////////////////////////////////
 
+import 'mocha';
+import { expect } from 'chai';
+
+describe('Hello function 1', () => {
+  it('should return hello world DisplayObject!', () => {
+    const a = true;
+    expect(a).to.equal(a);
+  });
+});
+
+

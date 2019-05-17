@@ -42,6 +42,14 @@ if (typeof __global == 'undefined') {
 
 let __define = this && this.__define || function (o, p, g, s) { Object.defineProperty(o, p, { configurable: true, enumerable: true, get: g, set: s }) };
 
+
+export namespace Shapes {
+    export class Triangle { /* ... */ };
+    export class Square { /* ... */ };
+}
+
+
+
 namespace egret {
     /**
      * The HashObject class is the base class for all objects in the Egret framework.The HashObject

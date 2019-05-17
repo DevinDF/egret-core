@@ -302,6 +302,8 @@ declare namespace egret {
     }
 }
 declare namespace egret {
+    class DisplayObject1111 {
+    }
     /**
      * @private
      */
